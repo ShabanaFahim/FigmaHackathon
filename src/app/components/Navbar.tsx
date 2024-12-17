@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 import Image from "next/image";
-import { stringify } from "querystring";
+
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
